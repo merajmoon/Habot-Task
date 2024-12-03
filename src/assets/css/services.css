@@ -1,0 +1,80 @@
+.services-container {
+    padding: 50px;
+    border-radius: 7px;
+    background-color: rgb(25, 44, 86);
+}
+
+.video-container iframe {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.text-section {
+    padding-left: 20px;
+}
+
+.buyer-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6f3d;
+    text-align: center;
+    border-bottom: 3px solid #ff6f3d;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.supplier-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.text-section ul li i {
+    font-size: 1.2rem;
+}
+
+.text-section ul li {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .services-container {
+        padding: 20px;
+    }
+
+    .buyer-title,
+    .supplier-title {
+        font-size: 1.2rem;
+    }
+
+    .supplier-title {
+        margin-left: 10px;
+    }
+
+    .text-section {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .text-section ul {
+        padding: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .text-section ul li {
+        font-size: 0.9rem;
+    }
+
+    .buyer-title {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .supplier-title {
+        width: 100%;
+    }
+}

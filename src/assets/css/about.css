@@ -1,0 +1,56 @@
+.about-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333333;
+}
+.about-section{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.highlight {
+    color: #5e3db8;
+}
+
+.about-description {
+    font-size: 1rem;
+    color: #666666;
+    line-height: 1.6;
+}
+
+.grid-item {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn i {
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+
+
+.right-animation {
+    animation: right 1s infinite ease-in-out;
+}
+
+
+@keyframes right {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}

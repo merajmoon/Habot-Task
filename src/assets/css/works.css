@@ -1,0 +1,55 @@
+.works-section {
+    margin: 0;
+    padding: 0;
+}
+
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.col-md-4, .col-sm-6 {
+    padding: 0;
+}
+
+.card {
+    border: none;
+    background-color: #fff;
+    border-radius: 0;
+    height: 100%;
+}
+.card-with-bg {
+    border: none;
+    background-color: #e8f7ff;
+    border-radius: 0;
+    height: 100%;
+}
+
+.card-body {
+    padding: 3rem;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
+
+
+.text-orange{
+    color: rgb(243, 95, 58);
+}
+
+.works-para{
+    width: 66%;
+}
+
+
+@media (max-width: 768px) {
+ .works-para{
+    width: 100%;
+ }   
+}
